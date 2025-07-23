@@ -1,6 +1,8 @@
 
 # Spedion API File Sender
 
+![Spedion API Automation](docs/Automatisierter_Dateiversand_mit_Spedion_API.png)
+
 This Python script automates sending files to the Spedion InformationExchange API.  
 It scans a source folder, sends each file as a message with attachment to a specific driver (parsed from the file name), and saves logs and request JSONs.  
 All configuration and credentials are stored in a separate `config.json` file.
